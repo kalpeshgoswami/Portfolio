@@ -7,7 +7,7 @@ This website showcases my skills, experience, and projects as a **Software Engin
 
 ## 🚀 Live Demo
 
-- 🔗 **Netlify:** -- 
+- 🔗 **Netlify:** https://incredible-begonia-f1d068.netlify.app/ 
 - 🔗 **GitHub Pages:** (https://github.com/kalpeshgoswami/Portfolio)
 
 ---
