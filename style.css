@@ -1,0 +1,137 @@
+:root {
+  --bg-primary: #0b0f14;
+  --bg-secondary: #111827;
+
+  --text-primary: #e5e7eb;
+  --text-muted: #9ca3af;
+
+  --accent-primary: #22c55e;
+  --accent-secondary: #16a34a;
+
+  --border-color: #1f2933;
+
+  --background-color: rgba(233, 233, 233, 0.336)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: white
+}
+
+.navbar {
+  border-radius: 20px;
+  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+  background-color: var(--background-color)
+}
+
+.navbar-brand {
+  color: var(--accent-primary);
+}
+
+.nav-item a {
+  color: var(--accent-primary);
+  font-size: 1rem;
+}
+
+.port-photo img {
+  height: 90vh;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social-link i {
+  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+.curly-waves {
+  width: 200px;
+}
+
+.card-skills {
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+}
+
+.about-pic {
+  max-width: 350px;
+}
+
+.card-skills {
+  background-color: transparent;
+  max-width: 140px;
+}
+
+.about-card {
+  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+  background-color: var(--background-color);
+  color: var(--text-primary);
+}
+
+.testimonial-card {
+  box-shadow: var(--accent-primary) 1.95px 1.95px 2.6px;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #e6e6e6;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.testimonial-card:hover,
+.card-skills:hover,
+.social-link i:hover,
+img:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  
+}
+
+.testimonial-card p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.testimonial-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.testimonial-user img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-user h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.testimonial-user span {
+  font-size: 14px;
+  color: #777;
+}
